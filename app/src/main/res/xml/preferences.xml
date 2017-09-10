@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Notifications">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="sp_noti_enabled"
+            android:title="Enable notifications?"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Interval Notes Settings" >
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="sp_random"
+            android:title="Random Interval?" />
+        <EditTextPreference
+            android:defaultValue="5"
+            android:key="etp_interval"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:inputType="number"
+            android:title="Edit interval between each notification (minutes)" />
+
+    </PreferenceCategory>
+
+
+
+
+
+</PreferenceScreen>

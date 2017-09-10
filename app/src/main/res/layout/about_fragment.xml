@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="This app allows you to create short revision notes that will help you memorise information through repetition. "
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="The revision notes will pop up as notifications after a certain amount of time. You can choose the interval in the settings."
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="The app also allows you to create reminders which will show up at a certain date and time. You can go into Reminders to set one."
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="
+Disclaimer: some devices kill applications that are running in the background. A fix for this is currently being worked on. If this happens just disable and re-enable the notifications in the app settings. You could try going into the system settings and creating an exception for this app which will stop it getting killed as often. "
+        android:textSize="16sp" />
+</LinearLayout>
